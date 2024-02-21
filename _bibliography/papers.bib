@@ -1,85 +1,39 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{heinbaugh2022data,
+  title={Data-free one-shot federated learning under very high statistical heterogeneity},
+  author={Heinbaugh, Clare Elizabeth and Luz-Ricca, Emilio and Shao, Huajie},
+  booktitle={The Eleventh International Conference on Learning Representations},
+  year={2022},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
+  abstract={Federated learning (FL) is an emerging distributed learning framework that collaboratively trains a shared model without transferring the local clients' data to a centralized server. Motivated by concerns stemming from extended communication and potential attacks, one-shot FL limits communication to a single round while attempting to retain performance. However, one-shot FL methods often degrade under high statistical heterogeneity, fail to promote pipeline security, or require an auxiliary public dataset. To address these limitations, we propose two novel data-free one-shot FL methods: FedCVAE-Ens and its extension FedCVAE-KD. Both approaches reframe the local learning task using a conditional variational autoencoder (CVAE) to address high statistical heterogeneity. Furthermore, FedCVAE-KD leverages knowledge distillation to compress the ensemble of client decoders into a single decoder. We propose a method that shifts the center of the CVAE prior distribution and experimentally demonstrate that this promotes security, and show how either method can incorporate heterogeneous local models. We confirm the efficacy of the proposed methods over baselines under high statistical heterogeneity using multiple benchmark datasets. In particular, at the highest levels of statistical heterogeneity, both FedCVAE-Ens and FedCVAE-KD typically more than double the accuracy of the baselines.},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{desalvo2022blinking,
+  title={Blinking-based multiplexing: a new approach for differentiating spectrally overlapped emitters},
+  author={DeSalvo, Grace A and Hoy, Grayson R and Kogan, Isabelle M and Li, John Z and Palmer, Elise T and Luz-Ricca, Emilio and de Gialluly, Paul Scemama and Wustholz, Kristin L},
+  journal={The Journal of Physical Chemistry Letters},
+  volume={13},
+  number={22},
+  pages={5056--5060},
+  year={2022},
+  publisher={ACS Publications},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  abstract={Multicolor single-molecule imaging is widely applied to answer questions in biology and materials science. However, most studies rely on spectrally distinct fluorescent probes or time-intensive sequential imaging strategies to multiplex. Here, we introduce blinkingbased multiplexing (BBM), a simple approach to differentiate spectrally overlapped emitters based solely on their intrinsic blinking dynamics. The blinking dynamics of hundreds of rhodamine 6G and CdSe/ZnS quantum dots on glass are obtained using the same acquisition settings and analyzed with a change point detection algorithm. Although substantial blinking heterogeneity is observed, the analysis yields a blinking metric with 93.5\% classification accuracy. We further show that BBM with up to 96.6\% accuracy is achieved by using a deep learning algorithm for classification. This proof-of-concept study demonstrates that a single emitter can be accurately classified based on its intrinsic blinking dynamics and without the need to probe its spectral color.}
+}
+
+@article{luz2023automating,
+  title={Automating sandhill crane counts from nocturnal thermal aerial imagery using deep learning},
+  author={Luz-Ricca, Emilio and Landolt, Kyle and Pickens, Bradley A and Koneff, Mark},
+  journal={Remote Sensing in Ecology and Conservation},
+  volume={9},
+  number={2},
+  pages={182--194},
+  year={2023},
+  publisher={Wiley Online Library},
+  bibtex_show={true},
+  abstract={Population monitoring is essential to management and conservation efforts for migratory birds, but traditional low‐altitude aerial surveys with human observers are plagued by individual observer bias and risk to flight crews. Aerial surveys that use remote sensing can reduce bias and risk, but manual counting of wildlife in imagery is laborious and may be cost‐prohibitive. Therefore, automated methods for counting are critical to cost‐efficient application of remote sensing for wildlife surveys covering large areas. We conducted nocturnal surveys of sandhill cranes (Antigone canadensis) during spring migration in the Central Platte River Valley of Nebraska, USA, using midwave thermal infrared sensors. We developed a framework for automated counting of sandhill cranes from thermal imagery using deep learning, assessed and compared the performance of two automated counting models, and quantified the effect of spatial resolution on counting accuracy. Aerial thermal imagery data were collected in March 2018 and 2021; 40 images were analyzed. We applied two deep learning models: an object detection approach, Faster R‐CNN and a recently developed pixel‐density estimation approach, ASPDNet. Model performance was determined using data independent of the training imagery. The effect of spatial resolution was quantified with a beta regression on relative error. Our results showed model accuracy of 9\% mean percent error for ASPDNet and 1\8% for Faster R‐CNN. Most error was related to the undercounting of sandhill cranes. ASPDNet had <50\% of the error of Faster R‐CNN as measured by mean percent error, root‐mean‐squared error and mean absolute error. Spatial resolution affected accuracy of both models, with error rate increasing with coarser resolution, particularly with Faster R‐CNN. Deep learning models, particularly pixel‐density estimators, can accurately automate counting of migratory birds in a dense, aggregate setting such as nocturnal roosting sites.},
+  selected={true}
 }
