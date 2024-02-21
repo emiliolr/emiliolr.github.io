@@ -108,9 +108,10 @@
             {% endif %}
           {% endfor %}
 
+          <!-- Manually add link to CV -->
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/emiliolr/emiliolr.github.io/blob/master/assets/pdf/current_resume_multi_page.pdf">
-              {{- "CV" }}
+            <a class="nav-link" href=" {{ "/assets/pdf/current_resume_multi_page.pdf" | relative_url }}">
+              {{- "cv" }}
             </a>
           </li>
 
