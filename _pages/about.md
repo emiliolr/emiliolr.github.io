@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.cam.ac.uk/'>University of Cambridge</a>.
+subtitle:
 
 profile:
   align: right
